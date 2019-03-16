@@ -1,3 +1,6 @@
-prime?(3)
+primes = [1..max]
+def prime(integer)
+  
 
-#confused.
+
+end

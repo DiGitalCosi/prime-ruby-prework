@@ -4,9 +4,6 @@ def eratosthenes2(n)
   nums = [true, false, true] * ((n + 5) / 6)
   nums[0] = false  # 1 is not prime.
   nums[1] = true   # 3 is prime.
- 
-  # Outer loop and both inner loops are skipping multiples of 2 and 3.
-  # Outer loop checks i * i > n, same as i > Math.sqrt(n).
   i = 5
   until (m = i * i) > n
     if nums[i >> 1]

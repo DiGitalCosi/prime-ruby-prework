@@ -11,6 +11,3 @@ def sieve(max)
   puts "Solved for #{max} in #{counter} steps."
   primes.compact
 end
-
-def prime?(num)
-  sieve(num).include?(num)
